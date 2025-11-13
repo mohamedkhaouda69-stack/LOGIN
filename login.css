@@ -1,0 +1,143 @@
+body {
+    background-color: black;
+    margin-left: 120px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+section {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    width: 1100px;
+    height: 95vh;
+}
+
+form {
+    background-color: rgb(229, 227, 235);
+    width: 450px;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+}
+
+form img {
+    padding-top: 20px;
+    padding-left: 200px;
+}
+
+form h1 {
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+form p {
+    text-align: center;
+}
+
+.formulaire {
+    text-align: center;
+}
+
+.formulaire input[type="email"],
+.formulaire input[type="password"] {
+    outline: none;
+    width: 360px;
+    height: 30px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+}
+
+.formulaire label[for="email"] {
+    font-weight: bold;
+    padding-right: 320px;
+
+}
+
+.formulaire label[for="password"] {
+    font-weight: bold;
+    padding-right: 284px;
+}
+
+.formulaire input[type="checkbox"],
+.formulaire label[for="Remember-me"] {
+    padding-right: 260px;
+    font-size: 13px;
+}
+
+.forget {
+    position: absolute;
+    left: 1047px;
+    top: 410px;
+
+}
+
+.help {
+    position: absolute;
+    left: 810px;
+    top: 409px;
+
+}
+
+.checkbox {
+    position: absolute;
+    left: 58%;
+    top: 63.5%;
+}
+
+.formulaire a {
+    font-size: small;
+}
+
+input[type="submit"] {
+    margin-top: 2%;
+    padding: 2% 35%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 15px;
+    transition: 0.5s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(119, 119, 233);
+    cursor: pointer;
+    color: white;
+    transform: scale(1.1);
+}
+
+button {
+    position: absolute;
+    right: 15.8%;
+    padding: 0% 7.3%;
+    margin-top: 1%;
+    border: none;
+    border-radius: 15px;
+    background-color:  rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    transition: 0.5s ease;
+    
+}
+button:hover{
+    background-color: rgb(119, 119, 233);
+    cursor: pointer;
+    color: white;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.Google {
+    padding: 0px;
+    width: 40px;
+}
+.donthaveaccount{
+    position: absolute;
+    top: 88%;
+    right: 20%;
+}
